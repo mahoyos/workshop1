@@ -19,7 +19,7 @@
               <input type="text" class="form-control mb-2" placeholder="Nombre producto" name="name" value="{{ old('name') }}" />
               <input type="text" class="form-control mb-2" placeholder="URL Imagen" name="image" value="{{ old('image') }}" />
               <input type="text" class="form-control mb-2" placeholder="Marca" name="brand" value="{{ old('brand') }}" />
-              <input type="text" class="form-control mb-2" placeholder="Palabras Clave" name="keywords" value="{{ old('keywords') }}" />
+              <input type="text" class="form-control mb-2" placeholder="Palabras Clave (separadas por coma)" name="keywords" value="{{ old('keywords') }}" />
               <input type="int" class="form-control mb-2" placeholder="Precio" name="price" value="{{ old('price') }}" />
               <input type="int" class="form-control mb-2" placeholder="Stock" name="stock" value="{{ old('stock') }}" />
               <input type="text" class="form-control mb-2" placeholder="Descripción" name="description" value="{{ old('description') }}" />
