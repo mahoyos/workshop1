@@ -1,0 +1,13 @@
+To run this web application, you will need to follow the instructions below:
+
+1. Because this web page uses a local database, you will need to run the following command in the project directory:
+        php artisan migrate
+
+2. Then, to populate the database, you can run the following command in the project directory:
+        php artisan db:seed
+
+3. Finally, you can run the following command:
+        php artisan serve
+    and open your browser and search for the URL displayed by the command.
+
+4. Now you can browse and test the page!

@@ -9,12 +9,11 @@ use Illuminate\View\View;
 
 class ProductController extends Controller
 {
-
-
     public static function parseStrToJson(string $str)
     {
-        $array = explode(",", $str);
+        $array = explode(',', $str);
         $json = json_encode($array);
+
         return $json;
     }
 
@@ -67,8 +66,4 @@ class ProductController extends Controller
 
         return redirect()->route('product.showProducts');
     }
-
-    
 }
-
-
